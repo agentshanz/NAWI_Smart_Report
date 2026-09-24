@@ -54,7 +54,6 @@ Dashboard → Instrument Details → Applicable Test Plan → Test Result Entry 
 
 ### Workflow Diagram
 
-> Replace the image below with your final workflow diagram.
 
 ![Workflow](docs/workflow.jpeg)
 
@@ -110,7 +109,6 @@ NAWI-SmartReport-Prototype/
 │── CHANGELOG.md
 │
 ├── prototype/
-│   ├── NAWI-SmartReport.fig
 │   ├── figma-link.md
 │   ├── dashboard.md
 │   ├── instrument-details.md
