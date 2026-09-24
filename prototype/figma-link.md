@@ -4,11 +4,9 @@ This repository contains the interactive UI prototype created for **Smart India 
 
 ## Interactive Prototype
 
-**Figma Prototype:** *(Add your public Figma prototype link here after publishing.)*
+**Figma Prototype:** 
 
-Example format:
-
-`https://www.figma.com/proto/your-prototype-link`
+`https://poster-cover-00434339.figma.site/`
 
 ## Included Prototype Screens
 
