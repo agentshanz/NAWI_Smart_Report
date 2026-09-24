@@ -56,7 +56,7 @@ Dashboard → Instrument Details → Applicable Test Plan → Test Result Entry 
 
 > Replace the image below with your final workflow diagram.
 
-![Workflow](docs/workflow.png)
+![Workflow](docs/workflow.jpeg)
 
 ---
 
