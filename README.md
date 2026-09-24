@@ -6,11 +6,19 @@
 
 ## Overview
 
-NAWI SmartReport is a **Smart India Hackathon (SIH) 2026** prototype that demonstrates how the model approval testing process for Non-Automatic Weighing Instruments can be simplified through a digital workflow.
+NAWI SmartReport is a **Smart India Hackathon (SIH) 2026** prototype that demonstrates how the model approval testing process for Non-Automatic Weighing Instruments can be simplified through a guided digital workflow.
 
-Instead of relying on manual calculations and lengthy documentation, the prototype illustrates how technicians can be guided through the required tests, verify compliance with OIML R 76, and generate a standardized **R 76-2** report.
+Instead of relying on manual calculations and lengthy documentation, the prototype illustrates how technicians can identify applicable tests, record observations, verify compliance with **OIML R 76**, and generate a standardized **R 76-2** report.
 
-> **This repository contains a UI prototype created to explain the proposed solution and user workflow. It is not the complete production implementation.**
+> **This repository showcases the UI prototype and user journey. It is intended to demonstrate the proposed solution and workflow rather than the complete production implementation.**
+
+---
+
+## Interactive Prototype
+
+**Figma Prototype:**
+
+`https://poster-cover-00434339.figma.site/`
 
 ---
 
@@ -24,7 +32,7 @@ The current model approval process involves multiple manual steps, including:
 * Verifying compliance
 * Preparing reports
 
-These tasks are time-consuming and increase the possibility of documentation and calculation errors.
+These tasks increase documentation effort and create opportunities for calculation and reporting errors.
 
 ---
 
@@ -42,25 +50,54 @@ The prototype demonstrates a structured workflow where technicians can:
 
 ## Prototype Workflow
 
-1. Dashboard
-2. Instrument Details
-3. Applicable Test Plan
-4. Test Result Entry
-5. Compliance Result
-6. Report Preview
+Dashboard → Instrument Details → Applicable Test Plan → Test Result Entry → Compliance Verification → R 76-2 Report Preview
+
+### Workflow Diagram
+
+> Replace the image below with your final workflow diagram.
+
+![Workflow](docs/workflow.png)
 
 ---
 
 ## Prototype Screens
 
-| Screen             | Purpose                |
-| ------------------ | ---------------------- |
-| Dashboard          | Home screen            |
-| Instrument Details | Enter NAWI information |
-| Test Plan          | View applicable tests  |
-| Test Results       | Record measurements    |
-| Compliance         | Display Pass/Fail      |
-| Report Preview     | Preview R 76-2 report  |
+### Dashboard
+
+![Dashboard](prototype/dashboard.png)
+
+### Instrument Details
+
+![Instrument Details](prototype/instrument-details.png)
+
+### Applicable Test Plan
+
+![Test Plan](prototype/test-plan.png)
+
+### Test Result Entry
+
+![Test Results](prototype/test-results.png)
+
+### Compliance Verification
+
+![Compliance](prototype/compliance.png)
+
+### R 76-2 Report Preview
+
+![Report Preview](prototype/report-preview.png)
+
+---
+
+## Screen Summary
+
+| Screen                  | Purpose                               |
+| ----------------------- | ------------------------------------- |
+| Dashboard               | Home screen and quick actions         |
+| Instrument Details      | Register the weighing instrument      |
+| Applicable Test Plan    | Display generated R-76 test checklist |
+| Test Result Entry       | Record measurements and observations  |
+| Compliance Verification | Display PASS/FAIL outcome             |
+| Report Preview          | Preview the R 76-2 report             |
 
 ---
 
@@ -70,10 +107,17 @@ The prototype demonstrates a structured workflow where technicians can:
 NAWI-SmartReport-Prototype/
 │── README.md
 │── LICENSE
+│── CHANGELOG.md
 │
 ├── prototype/
 │   ├── NAWI-SmartReport.fig
 │   ├── figma-link.md
+│   ├── dashboard.md
+│   ├── instrument-details.md
+│   ├── test-plan.md
+│   ├── test-results.md
+│   ├── compliance.md
+│   ├── report-preview.md
 │   ├── dashboard.png
 │   ├── instrument-details.png
 │   ├── test-plan.png
@@ -82,8 +126,11 @@ NAWI-SmartReport-Prototype/
 │   └── report-preview.png
 │
 ├── docs/
+│   ├── workflow.md
 │   ├── workflow.png
-│   └── prototype-overview.md
+│   ├── prototype-overview.md
+│   ├── roadmap.md
+│   └── prototype-design-guide.md
 │
 └── assets/
     └── ui-icons/
@@ -91,15 +138,15 @@ NAWI-SmartReport-Prototype/
 
 ---
 
-## Design Goal
+## Design Goals
 
 The prototype focuses on demonstrating:
 
-* Simple technician workflow
-* Clean laboratory-style interface
-* Guided testing process
-* Digital report generation concept
-* User-friendly navigation
+* A simple technician workflow
+* A clean laboratory-style interface
+* Guided step-by-step testing
+* Digital report generation
+* Consistent and user-friendly navigation
 
 ---
 
@@ -107,12 +154,15 @@ The prototype focuses on demonstrating:
 
 * Complete R-76 rule engine
 * Automatic calculations
-* Report generation
+* PDF report generation
 * Test history management
 * Multi-user laboratory support
+* Audit trail for retests and corrections
 
 ---
 
 ## Developed For
 
 **Smart India Hackathon (SIH) 2026**
+
+NAWI SmartReport is a prototype created to demonstrate how a structured digital workflow can improve NAWI model approval testing while aligning with **OIML R 76** requirements.
