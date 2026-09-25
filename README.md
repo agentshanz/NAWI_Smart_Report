@@ -18,7 +18,7 @@ Instead of relying on manual calculations and lengthy documentation, the prototy
 
 **Figma Prototype:**
 
-`https://poster-cover-00434339.figma.site/`
+https://poster-cover-00434339.figma.site/
 
 ---
 
