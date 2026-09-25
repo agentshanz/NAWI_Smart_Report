@@ -125,7 +125,7 @@ NAWI-SmartReport-Prototype/
 │
 ├── docs/
 │   ├── workflow.md
-│   ├── workflow.png
+│   ├── workflow.jpeg
 │   ├── prototype-overview.md
 │   ├── roadmap.md
 │   └── prototype-design-guide.md
